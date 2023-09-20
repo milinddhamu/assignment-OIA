@@ -11,12 +11,7 @@ const LoginCard = () => {
     signIn("google");
   };
   if (loginLoading) {
-    return
-    <> 
-    <div className="min-w-screen min-h-screen">
-      <Loading />;
-    </div>
-    </>
+    return <Loading />;
   };
   return (
     <>
