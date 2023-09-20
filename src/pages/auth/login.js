@@ -13,7 +13,7 @@ const login = () => {
   }, [session]);
   return (
     <>
-      <main className="flex flex-col lg:flex-row lg:justify-between bg-[#F8FAFF] h-screen">
+      <main className="flex flex-col lg:flex-row lg:justify-between bg-[#F8FAFF] min-h-screen">
         <section className="relative flex lg:min-h-screen lg:w-1/2 h-full">
           <div className="flex flex-col justify-between items-center w-full p-12 gap-20 lg:gap-0 z-10 pb-24 lg:pb-12">
           <div className="flex w-full items-start font-bold text-white">LOGO</div>
