@@ -52,10 +52,11 @@ const BarChart = ({data}) => {
             tickLine={false}
           />
           <CartesianAxis  />
-          <Tooltip contentStyle={{
+          <Tooltip 
+            contentStyle={{
             borderRadius: "10px",
           }} />
-          <Bar dataKey="Guest" fill="#98D89E" className='rounded-lg' shape={renderShape} />
+          <Bar dataKey="Guest" fill="#98D89E" shape={renderShape} />
           <Bar dataKey="user" fill="#EE8484" shape={renderShape}  />
         </BarChartRechart>
       </ResponsiveContainer>

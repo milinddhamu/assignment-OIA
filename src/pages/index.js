@@ -11,6 +11,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [isNavbarActive , setIsNavbarActive] = useState(false);
   const handleActive = () => setIsNavbarActive((prev)=> !(prev));
+  
   useEffect(() => {
     if (!session || session?.status === "unauthenticated") {
       router.push('/auth/login');
