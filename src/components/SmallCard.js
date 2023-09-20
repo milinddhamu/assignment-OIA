@@ -39,9 +39,9 @@ const SmallCard = ({name,value,change}) => {
         {/* icon here*/}
         <div className={`rounded-full ${backgroundIconColor} max-w-fit text-xl p-2 text-white`}>
           {icon}
-          </div>
+        </div>
       <div className="flex flex-row justify-between items-end gap-2">
-        <div><p className="text-xs">{name}</p>
+        <div><p className="text-xs line-clamp-1">{name}</p>
         <h2 className="text-2xl font-bold">{value}</h2>
         </div>
         <div className={`bg-green-300/40 rounded-full px-3 py-1 text-green-600 font-bold text-xs`}>

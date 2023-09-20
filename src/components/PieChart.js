@@ -3,7 +3,7 @@ import { PieChart as PieChartRecharts, Pie,Cell } from "recharts";
 const PieChart = ({ data }) => {
   return (
     <>
-    <div className="pb-3 -ml-3 md:scale-90 lg:scale-100">
+    <div className="pb-3 -ml-3 scale-75 md:scale-90 lg:scale-100 pointer-events-none">
             <PieChartRecharts width={200} height={200}>
               <Pie
                 data={data}
