@@ -15,7 +15,7 @@ const DashBoard = ({navbarButton}) => {
   }, []);
   
   return (
-    <div className="flex flex-col w-full max-w-9/12 lg:w-9/12 py-8 px-4 lg:pl-0 gap-6 min-h-screen">
+    <div className="flex flex-col w-full max-w-9/12 lg:w-9/12 py-8 px-4 lg:pl-0 lg:pr-8 gap-6 min-h-screen">
       
         {/* Topbar Dashboard */}
         <TopBarDashboard navbarButton={navbarButton} />

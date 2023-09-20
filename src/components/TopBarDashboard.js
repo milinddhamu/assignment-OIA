@@ -10,7 +10,7 @@ const TopBarDashboard = ({ navbarButton }) => {
   const [profileDropdown, setProfileDropdown] = useState(false);
   return (
     <>
-      <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center sm:justify-between">
+      <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center sm:justify-between md:px-2">
         <h1 className="text-2xl font-bold self-center md:self-none">Dashboard</h1>
         <div className="flex flex-row gap-4 justify-end items-center w-full lg:w-auto">
           <div className="flex flex-row bg-white items-center gap-4 rounded-lg p-1 px-3 text-sm text-slate-500 ">
