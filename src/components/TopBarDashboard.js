@@ -48,7 +48,7 @@ const TopBarDashboard = ({ navbarButton }) => {
             {/*Profile dropdown menu*/}
             <div className={`${!profileDropdown && "hidden"} origin-top-right right-0 absolute mt-2 max-w-56 min-w-fit bg-white border border-gray-300 rounded-xl shadow-lg z-20`}>
               <div className="flex flex-col items-start w-full">
-                <button className="flex w-full px-4 py-2 text-gray-800 hover:bg-blue-100 border-b-2 border-gray-500/50">
+                <button className="flex w-full px-4 py-2 text-gray-800 hover:bg-blue-100 border-b border-gray-500/50">
                   <span className="flex flex-col w-full items-start text-medium pointer-events-none">
                     <h1>{session?.user.name}</h1>
                     <h4 className="text-sm text-gray-500">{session?.user.email}</h4>
