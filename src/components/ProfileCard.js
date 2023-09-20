@@ -16,7 +16,7 @@ const ProfileCard = ({}) => {
 
   return (
     <>
-    <div className="flex flex-col gap-2 rounded-3xl border-[3px] border-[#E0E0E0] drop-shadow-md bg-white w-full h-full ">
+    <div className="flex flex-col gap-2 rounded-3xl border-[1px] border-[#E0E0E0] drop-shadow-md bg-white w-full h-full ">
           {!profileState ? <>
             <div className="flex flex-col justify-center items-center min-h-full gap-4 py-16 md:py-0">
             <button

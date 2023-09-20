@@ -35,7 +35,7 @@ const SmallCard = ({name,value,change}) => {
   
   const { icon, backgroundIconColor } = IconSwitchCase(name);
   return (
-    <div title={name} id={name} className="flex flex-col rounded-3xl border-[3px] border-[#E0E0E0] drop-shadow-md p-4 gap-3 bg-white w-full hover:cursor-pointer hover:shadow-xl transition-all">
+    <div title={name} id={name} className="flex flex-col rounded-3xl border-[1px] border-[#E0E0E0] drop-shadow-md p-4 gap-3 bg-white w-full hover:cursor-pointer hover:shadow-xl transition-all">
         {/* icon here*/}
         <div className={`rounded-full ${backgroundIconColor} max-w-fit text-xl p-2 text-white`}>
           {icon}

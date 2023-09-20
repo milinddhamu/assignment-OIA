@@ -5,7 +5,7 @@ import PieChart from './PieChart';
 const PieChartCard = ({ data }) => {
   return (
     <>
-    <div className="flex flex-col gap-2 sm:gap-4 md:gap-6 rounded-3xl border-[3px] border-[#E0E0E0] drop-shadow-md bg-white w-full py-6 pb-4 px-6 pt-7  ">
+    <div className="flex flex-col gap-2 sm:gap-4 md:gap-6 rounded-3xl border-[1px] border-[#E0E0E0] drop-shadow-md bg-white w-full py-6 pb-4 px-6 pt-7  ">
           <div className="flex flex-row justify-between items-center font-bold text-xl px-4">
             <h1>Top Products</h1>
             <h3 className="font-normal text-sm text-[#858585]">May - June 2021</h3>
