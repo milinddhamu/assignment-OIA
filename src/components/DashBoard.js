@@ -19,7 +19,6 @@ const DashBoard = ({navbarButton}) => {
       
         {/* Topbar Dashboard */}
         <TopBarDashboard navbarButton={navbarButton} />
-
         {apiData ? (
           <>
           <HeaderCards data={apiData?.ProfileData}/>
