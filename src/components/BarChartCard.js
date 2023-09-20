@@ -4,7 +4,7 @@ import BarChart from './BarChart';
 const BarChartCard = ({ data }) => {
   return (
     <>
-    <div className="flex flex-col w-full h-96 rounded-3xl border-[3px] border-[#E0E0E0] drop-shadow-md pr-5 pt-5 pb-3 p-1 md:px-4 md:pr-6 md:pt-6 bg-white gap-4">
+    <div className="flex flex-col w-full h-96 rounded-3xl border-[3px] border-[#E0E0E0] drop-shadow-md pr-5 pt-6 pb-3 p-1 md:px-4 md:pr-6  bg-white gap-4">
       <div className="flex flex-row justify-between items-center">
       <div className="px-6 pb-4">
       <h1 className="font-bold text-xl">Activities</h1>
