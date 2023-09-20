@@ -19,7 +19,7 @@ const PieChartCard = ({ data }) => {
               <div key={item.name} className="flex flex-row items-start gap-2 ">
                 <GoDotFill style={{color: `${item.fill}`}} className={`scale-150 mt-[6px] `}/>
                   <span className="flex flex-col">
-                    <h3 className="text-xs sm:text-sm md:text-md font-bold">{item.name}</h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold">{item.name}</h3>
                     <p className="text-xs md:text-sm text-[#858585] ">{item.value}{"%"}</p>
                   </span>
               </div>
