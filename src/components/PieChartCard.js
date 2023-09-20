@@ -17,7 +17,7 @@ const PieChartCard = ({ data }) => {
           <div className="flex flex-col items-start justify-center gap-5 min-w-fit overflow-hidden">
             {data.map((item , index) => (
               <div key={item.name} className="flex flex-row items-start gap-2 ">
-                <GoDotFill className={`scale-150 mt-[6px] text-[${item.fill}]`}/>
+                <GoDotFill style={{color: `${item.fill}`}} className={`scale-150 mt-[6px] `}/>
                   <span className="flex flex-col">
                     <h3 className="text-xs sm:text-sm md:text-md font-bold">{item.name}</h3>
                     <p className="text-xs md:text-sm text-[#858585] ">{item.value}{"%"}</p>
