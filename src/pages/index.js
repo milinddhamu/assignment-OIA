@@ -1,9 +1,10 @@
 import { useRouter } from "next/router"
-import { signOut, useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import SideBar from "../components/SideBar";
 import DashBoard from "../components/DashBoard";
-import Loading from "../components/Loading"
+import Loading from "../components/Loading";
+
 export default function Home() {
   const router = useRouter();
   const { data:session } = useSession();

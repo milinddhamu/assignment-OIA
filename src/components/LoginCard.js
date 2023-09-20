@@ -1,6 +1,6 @@
 import { FcGoogle } from "react-icons/fc";
 import { AiFillApple } from "react-icons/ai";
-import { signIn,signOut } from "next-auth/react";
+import { signIn } from "next-auth/react";
 import Loading from "./Loading";
 import { useState } from "react";
 

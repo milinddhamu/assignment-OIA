@@ -1,4 +1,3 @@
-import { BiBell } from 'react-icons/bi';
 import { TbCashBanknote } from 'react-icons/tb';
 import { BsTags } from 'react-icons/bs';
 import { AiOutlineLike } from 'react-icons/ai';

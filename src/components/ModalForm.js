@@ -1,5 +1,5 @@
 import { IoIosAdd } from "react-icons/io"
-import { useState , useEffect } from "react";
+import { useState } from "react";
 
 const ModalForm = ({modalToggle ,setModalToggle ,setProfileState , setFormData , formData}) => {
   const [nextForm , setNextForm] = useState(false);

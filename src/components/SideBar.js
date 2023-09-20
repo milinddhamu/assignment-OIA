@@ -50,6 +50,7 @@ const SideBar = ({navbarState , navbarButton}) => {
         <div className="flex flex-col justify-start gap-2 font-light text-sm text-white w-full ">
           <h3 className="hover:cursor-pointer hover:underline hover:decoration-solid">Help</h3>
           <h3 className="hover:cursor-pointer hover:underline hover:decoration-solid">Contact Us</h3>
+          <a id="my github" title="milinddhamu" href="https://github.com/milinddhamu" className="hover:cursor-pointer hover:underline hover:decoration-solid">My Github</a>
         </div>
         </div>
     </div>
