@@ -67,7 +67,7 @@ const TopBarDashboard = ({ navbarButton }) => {
             id="navbarOpenButton"
             title="Sidebar"
             onClick={navbarButton}
-            className="lg:hidden h-8 w-8"><AiOutlineMenu className="text-2xl" /></button>
+            className="lg:hidden h-8 w-8 rounded-full"><AiOutlineMenu className="text-2xl" /></button>
         </div>
       </div>
 
