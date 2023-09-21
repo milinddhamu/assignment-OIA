@@ -1,38 +1,131 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard App
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This repository contains a web dashboard application built using Next.js, Tailwind CSS, Recharts for graph visualization, and NextAuth.js for authentication with Google as the provider. The application is designed to be responsive, making it accessible on various devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Installation](#installation)
+2. [Features](#features)
+3. [Usage](#usage)
+4. [Authentication](#authentication)
+5. [Folder Structure](#folder-structure)
+6. [Customization](#customization)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Follow these steps to set up the project locally:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/milinddhamu/assignment-OIA.git
+   ```
 
-## Learn More
+2. Navigate to the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd assignment-OIA
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install the project dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+4. Configure environment variables:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Create a `.env.local` file in the root directory of the project.
+   - Add your authentication credentials for Google as follows:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+     ```
+     GOOGLE_CLIENT_ID=your-client-id
+     GOOGLE_CLIENT_SECRET=your-client-secret
+     NEXTAUTH_URL=your-url-for-auth
+     ```
+
+   Note: Make sure to replace `your-client-id` , `your-client-secret` and `your-url-for-auth` with your actual Google OAuth credentials.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open your browser and access the application at `http://localhost:3000`.
+
+## Features
+
+- Responsive dashboard layout.
+- Graph visualization using Recharts.
+- User authentication with Google.
+- Secure user sessions.
+- Easily customizable.
+
+## Usage
+
+The application provides a dashboard interface with various graphs. You can customize and expand the dashboard by adding new components or modifying existing ones. To start using the app:
+
+1. Sign in with your Google account using the "Sign In with Google" button.
+
+2. Explore the dashboard interface with the provided graphs.
+
+3. Customize the dashboard by modifying the components in the `/components` directory.
+
+4. Add your own data and logic to display the information you need.
+
+## Authentication
+
+This application uses NextAuth.js with Google as the authentication provider. To enable authentication with other providers or configure authentication settings, refer to the NextAuth.js documentation: [NextAuth.js Documentation](https://next-auth.js.org/).
+
+## Folder Structure
+
+- `components/`: Contains React components used to build the dashboard interface.
+- `pages/`: Contains Next.js pages.
+- `pages/api/data`: Contains local API for data for graphs.
+## Customization
+
+You can easily customize the dashboard by:
+
+- Modifying existing components in the `components/` directory.
+- Adding new components for additional features or graphs.
+
+Feel free to tailor this dashboard app to your specific needs.
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+
+3. Make your changes and test them thoroughly.
+
+4. Commit your changes with a descriptive commit message.
+
+5. Push your changes to your forked repository:
+
+   ```bash
+   git push origin feature/your-feature
+   ```
+
+6. Create a pull request (PR) to the `main` branch of the original repository.
+
+7. Please provide a clear description of your changes in the PR description.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Enjoy using your responsive dashboard app built with Next.js, Tailwind CSS, Recharts, and NextAuth.js! If you have any questions or encounter issues, feel free to open an issue in the repository.
