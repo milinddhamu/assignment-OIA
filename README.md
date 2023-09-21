@@ -4,6 +4,25 @@
 
 This repository contains a web dashboard application built using Next.js, Tailwind CSS, Recharts for graph visualization, and NextAuth.js for authentication with Google as the provider. The application is designed to be responsive, making it accessible on various devices.
 
+## Screenshots
+### Desktop
+![1](https://github.com/milinddhamu/assignment-OIA/assets/68379239/bfb18d92-0422-48e7-b73a-b6f6dc66a014)
+
+![2](https://github.com/milinddhamu/assignment-OIA/assets/68379239/52a65f82-3074-42ec-b65a-c3aed8415def)
+
+![3](https://github.com/milinddhamu/assignment-OIA/assets/68379239/8dabb8f1-263d-417d-9ba4-50db58746e72)
+
+### Mobile
+
+![4](https://github.com/milinddhamu/assignment-OIA/assets/68379239/bdcf4be3-00db-45a7-b577-2303b0a2f6f2)
+
+![5](https://github.com/milinddhamu/assignment-OIA/assets/68379239/485e8b04-eb7e-4c94-a23d-2c6e38f87ad3)
+
+![6](https://github.com/milinddhamu/assignment-OIA/assets/68379239/bf98ce73-51e9-41c8-9753-ac268a6ac2c5)
+
+![7](https://github.com/milinddhamu/assignment-OIA/assets/68379239/4c2f7285-3dff-4aae-89d4-c31161f4d994)
+
+
 ## Table of Contents
 
 1. [Installation](#installation)
