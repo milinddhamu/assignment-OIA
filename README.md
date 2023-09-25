@@ -1,4 +1,7 @@
 ![Banner ](https://user-images.githubusercontent.com/68379239/270397124-0e0e91c2-70c4-4566-9d28-d06d97591999.jpg)
+
+#### Live - (https://assignment-oia.vercel.app/)
+
 ## Overview
 
 This repository contains a web dashboard application built using Next.js, Tailwind CSS, Recharts for graph visualization, and NextAuth.js for authentication with Google as the provider. The application is designed to be responsive, making it accessible on various devices.
